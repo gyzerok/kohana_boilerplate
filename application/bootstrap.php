@@ -87,6 +87,9 @@ if (isset($_SERVER['KOHANA_ENV']))
 	Kohana::$environment = constant('Kohana::'.strtoupper($_SERVER['KOHANA_ENV']));
 }
 
+// Cookie salt
+Cookie::$salt = 'lasdjhusaKJHFIBKDf74ry2rhwe';
+
 /**
  * Initialize Kohana, setting the default options.
  *
@@ -130,7 +133,7 @@ Kohana::modules(array(
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
-    // 'smarty'     => MODPATH.'smarty',     // Smarty3
+     'gsmarty'    => MODPATH.'gsmarty',    // Smarty3
 	));
 
 require(APPPATH . 'routes' . EXT);

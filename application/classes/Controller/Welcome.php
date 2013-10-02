@@ -2,9 +2,27 @@
 
 class Controller_Welcome extends Controller {
 
+    /* @var $smarty GSmarty */
+    protected $smarty;
+
+    public function before()
+    {
+        parent::before();
+
+        $this->smarty = GSmarty::instance();
+    }
+
 	public function action_index()
 	{
-		$this->response->body('hello, world!');
+        $this->smarty->assign('name', 'gyzerok');
+        $this->smarty->display('index.tpl');
 	}
 
-} // End Welcome
+    public function after()
+    {
+        $this->response->body($this->smarty->render());
+
+        parent::after();
+    }
+
+}
