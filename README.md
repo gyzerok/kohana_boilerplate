@@ -1,9 +1,9 @@
 # Kohana Boilerplate
 
-# Implemented features
+## Implemented features
 * Root directory changes
 * Smarty3
 
-# To be implemented
+## To be implemented
 * Twitter Bootstrap, jQuery and etc.
 * Auth
