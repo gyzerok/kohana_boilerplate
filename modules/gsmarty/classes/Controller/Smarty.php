@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Smarty extends Controller {
+abstract class Controller_Smarty extends Controller {
 
     /* @var $smarty GSmarty */
     protected $smarty;
