@@ -31,12 +31,12 @@ class GSmarty {
 
             // Apply configuration data
             $s->setTemplateDir($config->get('template_dir'));
-            $s->compile_dir         = $config->get('compile_dir');
-            $s->plugins_dir         = $config->get('plugins_dir');
-            $s->cache_dir           = $config->get('cache_dir');
-            $s->config_dir          = $config->get('config_dir');
+            $s->setCompileDir($config->get('compile_dir'));
+            $s->setPluginsDir($config->get('plugins_dir'));
+            $s->setCacheDir($config->get('cache_dir'));
+            $s->setConfigDir($config->get('config_dir'));
 
-            $s->debug_tpl           = $config->get('debug_tpl');
+            //$s->setDebugTemplate($config->get('debug_tpl'));
             $s->debugging_ctrl      = $config->get('debugging_ctrl');
             $s->debugging           = $config->get('debugging');
             $s->caching             = $config->get('caching');
