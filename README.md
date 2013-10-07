@@ -4,6 +4,7 @@
 * Root directory changes
 * Smarty3
 * Auth
+* ProfilerToolbar
 
 ## To be implemented
 * Twitter Bootstrap, jQuery and etc.
@@ -11,4 +12,3 @@
 * Upload helper
 * Image helper
 * Partials helper
-* ProfilerToolbar
