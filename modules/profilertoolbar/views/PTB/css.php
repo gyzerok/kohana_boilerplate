@@ -70,7 +70,7 @@ $C_TABS_BORDER_USE = '#1a1a1a';
   #ptb_data pre.source span.line { display: block; }
   #ptb_data pre.source span.highlight { background: #414040; }
   #ptb_data pre.source span.line span.num { color: #666; }
-  <!-- highlight -->
+
   #ptb_data pre.sql .imp {font-weight: bold; color: red;}
   #ptb_data pre.sql .kw1 {color: #388fff;}
   #ptb_data pre.sql .co1 {color: #808080;}
@@ -80,6 +80,5 @@ $C_TABS_BORDER_USE = '#1a1a1a';
   #ptb_data pre.sql .br0 {}
   #ptb_data pre.sql .st0 {color: #ff9933;}
   #ptb_data pre.sql .nu0 {color: #66ff00;}
-  <!-- /highlight -->
   
 </style>

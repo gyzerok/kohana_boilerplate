@@ -5,6 +5,6 @@
     </head>
     <body>
         {block "content"}{/block}
-        {ProfilerToolbar::render(TRUE)}
+        {ProfilerToolbar::render(FALSE)}
     </body>
 </html>
