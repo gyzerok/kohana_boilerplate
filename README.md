@@ -11,3 +11,4 @@
 * Upload helper
 * Image helper
 * Partials helper
+* ProfilerToolbar
