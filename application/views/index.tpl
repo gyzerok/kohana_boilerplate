@@ -1,5 +1,5 @@
 {if ! $cur_user}
-    <a href="{Route::url('register')}">Register</a><br>
+    <a href="{Route::url('default', [ 'action' => 'register' ])}">Register</a><br>
     <a href="{Route::url('security', [ 'action' => 'login' ])}">Sign in</a><br>
     Hello, Guest!
 {else}
