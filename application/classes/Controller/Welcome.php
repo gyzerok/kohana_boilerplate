@@ -31,6 +31,8 @@ class Controller_Welcome extends Controller_Smarty {
             }
         }
 
+
+
         $this->smarty->display('register.tpl');
     }
 
