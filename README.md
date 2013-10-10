@@ -5,9 +5,9 @@
 * Smarty3
 * Auth
 * ProfilerToolbar
+* Twitter Bootstrap, jQuery and etc.
 
 ## To be implemented
-* Twitter Bootstrap, jQuery and etc.
 * Migrations
 * Upload helper
 * Image helper
