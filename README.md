@@ -5,9 +5,11 @@
 * Smarty3
 * Auth
 * ProfilerToolbar
-* Twitter Bootstrap, jQuery and etc.
+* Twitter Bootstrap
+* jQuery
 
 ## To be implemented
+* Datepicker, CKEditor
 * Migrations
 * Upload helper
 * Image helper
